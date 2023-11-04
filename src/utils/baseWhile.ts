@@ -3,7 +3,7 @@ import slice from "../Array/slice";
 function baseWhile(
   array: any[],
   predicate: Function,
-  isDrop: boolean,
+  isDrop?: boolean,
   fromRight: boolean = false
 ) {
   const { length } = array;
