@@ -1,4 +1,4 @@
-/** 复制 数组 */
+/** 复制 数组 一微数组 */
 function copyArray<T>(source: T[], arr?: T[]): T[] {
   let index = -1;
   const length = source.length;
