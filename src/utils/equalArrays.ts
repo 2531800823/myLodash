@@ -1,4 +1,4 @@
-import some from "../Array/some";
+import some from "../gather/some";
 import SetCache from "./SetCache";
 import cacheHas from "./cacheHas";
 const COMPARE_PARTIAL_FLAG = 1;
