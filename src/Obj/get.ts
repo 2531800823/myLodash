@@ -1,4 +1,4 @@
-import baseGet from "./baseGet";
+import baseGet from "../utils/baseGet";
 
 /** 获取' object '的' path '处的值。如果解析值为
  * ' undefined '，返回' defaultValue '。 */

@@ -2,7 +2,7 @@ import isKey from "../Language/isKey";
 import isStrictComparable from "../Language/isStrictComparable";
 import hasIn from "../Obj/hasIn";
 import baseIsEqual from "./baseIsEqual";
-import get from "./get";
+import get from "../Obj/get";
 import matchesStrictComparable from "./matchesStrictComparable";
 import toKey from "./toKey";
 

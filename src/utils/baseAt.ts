@@ -1,4 +1,4 @@
-import get from "./get";
+import get from "../Obj/get";
 
 /** ' at '的基本实现，不支持单独的路径。 */
 function baseAt(obj: object, paths: string[]) {
