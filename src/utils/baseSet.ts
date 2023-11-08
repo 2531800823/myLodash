@@ -7,7 +7,7 @@ import assignValue from "./assignValue";
 function baseSet(
   obj: any,
   path: string | string[],
-  value: any,
+  value?: any,
   customizer?: Function
 ) {
   if (!isObject(obj)) {
